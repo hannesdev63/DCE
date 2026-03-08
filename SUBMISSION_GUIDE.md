@@ -63,6 +63,8 @@ vsce publish -p <personal-access-token>
 
 ## Test Before Publishing
 
+> build: npx vsce package
+
 You can test the VSIX locally before publishing:
 
 ```bash

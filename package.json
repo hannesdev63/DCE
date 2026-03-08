@@ -1,5 +1,5 @@
 {
-  "name": "dcd",
+  "name": "docker-compose-docs",
   "displayName": "Docker Compose Documentation",
   "description": "Generates comprehensive documentation and network diagrams for docker-compose.yml files",
   "version": "1.0.0",
