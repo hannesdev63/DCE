@@ -1,0 +1,68 @@
+{
+  "name": "docker-compose-docs",
+  "displayName": "Docker Compose Documentation",
+  "description": "Generates comprehensive documentation and network diagrams for docker-compose.yml files",
+  "version": "1.0.0",
+  "publisher": "hannesk",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "keywords": [
+    "docker",
+    "docker-compose",
+    "documentation",
+    "mermaid",
+    "diagram",
+    "network"
+  ],
+  "categories": [
+    "Other",
+    "Visualization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hannesk/docker-compose-docs"
+  },
+  "bugs": {
+    "url": "https://github.com/hannesk/docker-compose-docs/issues"
+  },
+  "homepage": "https://github.com/hannesk/docker-compose-docs/blob/main/README.md",
+  "icon": "assets/icon.png",
+  "activationEvents": [
+    "onCommand:composeDocs.generate"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "composeDocs.generate",
+        "title": "Generate Docker Compose Documentation"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "composeDocs.generate",
+          "when": "resourceFilename =~ /docker-compose.*\\.ya?ml$/",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.3.5",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.3.3",
+    "vsce": "^2.15.0"
+  }
+}

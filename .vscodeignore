@@ -1,0 +1,15 @@
+.git
+.gitignore
+.DS_Store
+node_modules/
+**/*.ts
+!**/*.d.ts
+.vscode-test/
+.vscode/
+core/
+generators/
+sidebar/
+types/
+webview/
+tsconfig.json
+package-lock.json
