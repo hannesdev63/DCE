@@ -1,0 +1,10 @@
+**/out/
+**/*.vsix
+**/node_modules/
+**/dist/
+**/coverage/
+**/logs/
+**/tmp/
+**/.vscode/
+**/.DS_Store
+**/.git/

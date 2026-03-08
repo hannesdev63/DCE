@@ -1,9 +1,9 @@
 {
-  "name": "docker-compose-docs",
+  "name": "dcd",
   "displayName": "Docker Compose Documentation",
   "description": "Generates comprehensive documentation and network diagrams for docker-compose.yml files",
   "version": "1.0.0",
-  "publisher": "hannesk",
+  "publisher": "hannesdev63",
   "license": "MIT",
   "engines": {
     "vscode": "^1.85.0"
@@ -22,12 +22,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hannesk/docker-compose-docs"
+    "url": "https://github.com/hannesdev63/DCE"
   },
   "bugs": {
-    "url": "https://github.com/hannesk/docker-compose-docs/issues"
+    "url": "https://github.com/hannesdev63/DCE/issues"
   },
-  "homepage": "https://github.com/hannesk/docker-compose-docs/blob/main/README.md",
+  "homepage": "https://github.com/hannesdev63/DCE/blob/main/README.md",
   "icon": "assets/icon.png",
   "activationEvents": [
     "onCommand:composeDocs.generate"

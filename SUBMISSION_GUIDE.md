@@ -4,7 +4,7 @@ Your Docker Compose Documentation extension has been successfully packaged and i
 
 ## Package Information
 
-- **File**: `docker-compose-docs-1.0.0.vsix`
+- **File**: `dcd-1.0.0.vsix`
 - **Size**: ~11.8 KB
 - **Version**: 1.0.0
 
