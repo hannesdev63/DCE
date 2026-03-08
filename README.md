@@ -37,7 +37,9 @@ A VS Code extension that automatically generates comprehensive documentation and
 The generated `docker-compose-docs.md` includes:
 
 ### Documentation Table
+
 A structured table containing:
+
 - **Service** - Service name
 - **Image** - Docker image used
 - **Ports** - Exposed ports
@@ -46,7 +48,9 @@ A structured table containing:
 - **Networks** - Connected networks
 
 ### Network Graph
+
 A Mermaid diagram visualizing:
+
 - Services as nodes
 - Networks as grouped nodes
 - Connections between services and networks
@@ -102,4 +106,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Support
 
 For issues, feature requests, or questions, please visit:
-https://github.com/hannesk/docker-compose-docs/issues
+[https://github.com/hannesdev63/dce/issues](https://github.com/hannesdev63/dce/issues)
